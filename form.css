@@ -1,0 +1,91 @@
+body {
+	background-image: url(.//mars1.jpg);
+	background-size: cover ;
+	background-repeat: no-repeat;
+}
+
+
+
+nav {
+	position: absolute;
+	top: 10px;
+	right: 30px;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 10px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #310808;
+	text-decoration: underline;
+	transform: scale(1.2);
+	
+}
+
+.title1{
+	color: #ffffff;
+	font-size: 80px;
+	text-align: left;
+
+}
+
+.title2 {
+    color: rgb(172, 81, 81);
+	font-weight: bold;
+}
+
+h1 {
+    color: black;
+}
+
+
+
+.login{ 
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -70%);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+input {
+    padding: 15px;
+    border: none;
+    font-size: 15px;
+}
+
+
+
+
+button {
+	text-align: center;
+    background-color: rgb(134, 52, 59);
+    border: none;
+    padding: 5px;
+    width: 100%;
+	font-weight: bold;
+	font-size: 5px;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+	color: #741717;
+	background:transparent;
+	text-decoration: underline;
+	transform: scale(1.2);
+}

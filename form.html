@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <header>
+
+        <h1 class="title1">W E L C O M E </h1>
+            <nav>
+                    <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="form.html">Form</a></li>
+                </ul>
+            </nav>
+
+            
+                <div class="login">
+                    <h1 class="title2">REGISTRATION FORM</h1>
+                    <label for="name">Full Name:</label>
+                    <input type="text" placeholder="Jonh Collins" required>
+                    <br><br>
+                    <label for="e-mail">Your Email Address:</label>
+                    <input type="e-mail" placeholder="email Address" required>
+                    <br><br>
+                    <label for="Date">Date of Birth:</label>
+                    <input type="date" required>
+                    <br><br>
+                    <label for="Number">Phone Number:</label>
+                    <input type="Phone" placeholder="(xx)xxxxx-xxxx">
+                    <br><br>
+                    <label for="gender">Gender:</label>
+                    <input type="radio" name="gender" value="male"> Male
+                    <input type="radio" name="gender" value="female"> Female
+                    <br><br>
+                    <label for="question">You're:</label>
+                    <input type="radio" name="crewmember" value="crewmember"> Crew Member
+                    <input type="radio" name="astronaut" value="astronaut"> Astronaut Crew
+                    
+                    <br><br>
+                    <label for="documen">Attach travel voucher</label>
+                    <input type="hidden" name="MAX_FILE_SIZE" value="4194304" required />
+                    <input type="file" />
+                    <br><br>
+                    <button>Send</button>
+                </div>
+
+</body>
+</html>
