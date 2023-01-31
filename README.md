@@ -1,6 +1,7 @@
 # LandingPage
+Projeto desenvolvido com conhecimentos prévios em HTML e CSS, aprendido com o projeto barbearia com ALURA.
 
-Muito feliz com este projeto, com alguns conhecimetos prévios em HTML e CSS, e com novos conhecimentos que aprendi com o projeto barbearia 
-Fiz este projeto futuristico de marte
+Projeto Futurisco de marte, com página inicial com link para a segunda pagina com formulário e o inicial da página.
 
-Este projeto conta com uma pagina inicial com link para o formulario e o inicial da página.
+
+
